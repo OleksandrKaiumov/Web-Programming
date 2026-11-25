@@ -27,7 +27,13 @@ npm run dev
 | `OPTIONS http://localhost:3000/api/v1/todoItem` | 204, заголовки CORS, порожнє тіло |
 | `GET http://localhost:3000/missing` | 404, JSON із повідомленням «Маршрут не знайдено» |
 
-## Деплой на Render — крок 9, виконує користувач
+## Розгорнутий застосунок
+
+- [Сервер на Render](https://web-programming-mlyt.onrender.com/).
+- [API зі списком завдань](https://web-programming-mlyt.onrender.com/api/v1/todoItem).
+- [Меню лабораторних робіт на GitHub Pages](https://oleksandrkaiumov.github.io/Web-Programming/).
+
+## Деплой на Render
 
 1. Увійдіть у [Render Dashboard](https://dashboard.render.com/) через GitHub.
 2. Натисніть **New → Web Service**.
@@ -55,12 +61,10 @@ npm run dev
 6. Відкрийте згенеровану Render адресу `https://<назва-сервісу>.onrender.com/`.
    Перевірте привітання, потім додайте до адреси `/api/v1/todoItem` та перевірте JSON-масив.
    Кутові дужки тут позначають вашу фактичну назву сервісу.
-7. Передайте фактичне посилання на сервер у поточному чаті для продовження роботи.
 
 На Free сервіс засинає після 15 хвилин без запитів. Наступний запуск може тривати близько хвилини.
 
-Після деплою залишаються кроки 10–13: додати фактичний URL API до `index.html`
-у корені репозиторію, злити та відправити зміни, перевірити GitHub Pages і оформити звіт.
+Посилання на API лабораторної роботи №10 додано до `index.html` у корені репозиторію.
 
 Офіційна документація Render:
 [Web Services](https://render.com/docs/web-services),
